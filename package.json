@@ -9,7 +9,11 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "bootstrap": "4.6.1",
+    "bootstrap-vue": "^2.22.0",
     "pinia": "^2.0.16",
+    "portal-vue": "^2.1.7",
+    "sass": "^1.54.8",
     "vue": "^2.7.7",
     "vue-router": "^3.5.4"
   },
