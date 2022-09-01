@@ -13,6 +13,10 @@ export default {
           route: '/',
           name: 'Home',
         },
+        {
+          route: '/texts',
+          name: 'Bible Texts',
+        },
       ],
     }
   },

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import BibleTextsView from '../views/BibleTextsView.vue'
 
 Vue.use(VueRouter)
 
@@ -12,6 +13,11 @@ const router = new VueRouter({
       path: '/',
       name: 'home',
       component: HomeView,
+    },
+    {
+      path: '/texts',
+      name: 'texts',
+      component: BibleTextsView,
     },
   ],
 })
