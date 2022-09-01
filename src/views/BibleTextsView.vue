@@ -39,7 +39,7 @@ export default Vue.extend({
                 </li>
                 <li>
                   Once Outlook opens, copy all of the email addresses in the <strong>To</strong> field. Close the
-                  Outlook window. Paste those email addresses into the <strong>Email addresses</strong> field below.
+                  Outlook window. Paste those email addresses into the <strong>Email Addresses</strong> field below.
                 </li>
                 <li>
                   Type the verse into the <strong>Verse</strong> field below. <em>Be sure to replace quotation marks
