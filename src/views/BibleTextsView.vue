@@ -48,6 +48,7 @@ export default Vue.extend({
                 <li>
                   Click on each of the <strong>Send Batch #</strong> buttons that appear. For each one, once the Outlook
                   window opens, <em>change the value in the <strong>From</strong> field to office@faithfc.org</em>.
+                  Also, <em>be sure to remove any trailing spaces in the body</em>.
                 </li>
               </ol>
             </b-card-text>
