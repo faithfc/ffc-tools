@@ -3,7 +3,16 @@ import Vue from 'vue'
 import { BIconBoxArrowUpRight } from 'bootstrap-vue'
 
 function splitEmails(emailsStr: string) {
-  const emails = emailsStr.split('; ')
+  let emails = emailsStr.split('; ')
+
+  // Remove duplicates
+  emails = emails.reduce((newArr: string[], email) => {
+    if (!newArr.includes(email)) {
+      newArr.push(email)
+    }
+    return newArr
+  }, [])
+
   const vtextEmails = emails.filter((email) => email.includes('@vtext.com'))
   const otherEmails = emails.filter((email) => !email.includes('@vtext.com'))
 
