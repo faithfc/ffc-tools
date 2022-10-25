@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import BibleTextsView from '../views/BibleTextsView.vue'
+import ActivityTrackerView from '../views/ActivityTrackerView.vue'
 
 Vue.use(VueRouter)
 
@@ -18,6 +19,11 @@ const router = new VueRouter({
       path: '/texts',
       name: 'texts',
       component: BibleTextsView,
+    },
+    {
+      path: '/tracker',
+      name: 'tracker',
+      component: ActivityTrackerView,
     },
   ],
 })

@@ -17,6 +17,10 @@ export default {
           route: '/texts',
           name: 'Bible Texts',
         },
+        {
+          route: '/tracker',
+          name: 'Activity Tracker',
+        }
       ],
     }
   },
